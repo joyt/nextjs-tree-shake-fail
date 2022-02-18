@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
-import { getString1 } from '../strings';
+import { STRING1 } from '../strings';
 
 const Test: NextPage = () => {
   return (
@@ -9,7 +9,7 @@ const Test: NextPage = () => {
       <Head>
         <title>Test</title>
       </Head>
-      <div>{getString1()}</div>
+      <div>{STRING1}</div>
     </div>
   );
 };

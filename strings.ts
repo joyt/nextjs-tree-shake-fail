@@ -1,11 +1,3 @@
-export function getString1() {
-  return "string1";
-}
-
-export function getString2() {
-  return "string2";
-}
-
-export function getString3() {
-  return "string3";
-}
+export const STRING1 = "string1";
+export const STRING2 = "string2";
+export const STRING3 = "string3";
